@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAll">
+	<test thread-count="5" name="Test01">
+
+		<groups>
+			<run>
+				<include name="Checkout"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testSet.Demo1" />
+			<class name="testSet.Amazon_Homepage_Test" />
+		</classes>
+	</test> <!-- Test1 -->
+	<test thread-count="5" name="Test02">
+
+		<groups>
+			<run>
+				<include name="Checkout"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testSet.Demo1" />
+			<class name="testSet.Amazon_Homepage_Test" />
+		</classes>
+	</test> <!-- Test1 -->
+	<test thread-count="5" name="Test03">
+
+		<groups>
+			<run>
+				<include name="Checkout"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testSet.Demo1" />
+			<class name="testSet.Amazon_Homepage_Test" />
+		</classes>
+	</test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
